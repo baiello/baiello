@@ -1,0 +1,25 @@
+.main-header::after {
+  display: block;
+  width: 100%;
+  height: 1px;
+  content: "";
+  background: linear-gradient(to right, transparent, rgb(200, 200, 200), transparent);
+}
+
+.main-header .name {
+  text-align: center;
+}
+
+.main-header .name a {
+  display: inline-block;
+  padding: 5px 10px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: var(--color-primary);
+  font-weight: var(--fw-bold);
+  transition: color .3s ease-in-out 0s;
+}
+
+.main-header .name a:hover {
+  color: var(--color-secondary);
+}
