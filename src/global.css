@@ -1,10 +1,12 @@
-:root{
-  --container-width: 1536px;
+:root {
+  --container-width: 1440px;
 
-  --color-primary: black;
-  --color-secondary: red;
+  --color-primary: rgb(0, 0, 0);
+  --color-secondary: rgb(212, 56, 0);
+  --color-link: rgb(0, 86, 214);
+  --color-background: rgb(255, 255, 255);
 
-  --ff-body: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto Flex', 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  --ff-body: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 
   --fw-light: 300;
   --fw-regular: 400;
@@ -72,15 +74,87 @@ svg {
   }
 }
 
+
+/*
+ * Animations
+ */
+
+ @keyframes blink {
+  0%{ background: var(--color-secondary); }
+  49%{ background: var(--color-secondary); }
+  60%{ background: transparent; }
+  99%{ background: transparent; }
+  100%{ background: var(--color-secondary); }
+}
+
+
 /*
  * General styling
  */
 
 body {
   font-family: var(--ff-body);
+  background-color: var(--color-background);
+}
+
+h2 {
+  position: relative;
+  max-width: max-content;
+  line-height: 2.5rem;
+  font-size: 2rem;
+  font-weight: var(--fw-bold);
+  margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 769px) {
+  h2 {
+    line-height: 3.5rem;
+    font-size: 3rem;
+  }
+}
+
+.editing::after {
+  content: '';
+  display: block;
+  width: 4px;
+  background: var(--color-secondary);
+  position: absolute;
+  right: -5px;
+  top: 0;
+  bottom: 0;
+  animation: blink 1s infinite;
+}
+
+h3 {
+  line-height: 2rem;
+  font-size: 1.5rem;
+  color: var(--color-secondary);
+  font-weight: var(--fw-bold);
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 769px) {
+  h3 {
+    line-height: 2.5rem;
+    font-size: 2rem;
+  }
+}
+
+h4 {
+  line-height: 1.25rem;
+  font-size: 1rem;
+  font-weight: var(--fw-bold);
+}
+
+@media screen and (min-width: 769px) {
+  h4 {
+    line-height: 1.5rem;
+    font-size: 1.15rem;
+  }
 }
 
 .container {
   max-width: var(--container-width);
   margin: auto;
+  padding: 0 10px;
 }

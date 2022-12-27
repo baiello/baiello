@@ -1,0 +1,138 @@
+{
+  "title": "CTO",
+  "mainSkills": {
+    "primary": ["Performance Motivation", "Leadership", "Strategic thinking"],
+    "secondary": ["Web Development", "Cloud Management", "Cybersecurity", "System administration"]
+  },
+  "hook": "The activities of the CTO range from the definition of the needs to the implementation of the architecture and the development teams. More broadly, I support the project owner throughout the technical part of the project by providing concrete answers to questions and advising on the strategy to be put in place. I make sure to take into account the financial means and external constraints in order to propose the most efficient solution. Whether it is from a recruitment point of view, subcontracting, legislation, hosting, equipment ... I like to start from scratch to bring the project to a level of maturity that gives it legitimacy on its market, but I also know how to adapt quickly to the existing to continue to improve it while reducing technical debts. I feel very concerned by the strategic side of the company and I like to have a global vision of the project (needs, market, finances) but I still know how to code. I attach great importance to the durability of the code written and I train the teams to produce high-performance and durable code that will give the project the capacity to evolve and adapt to future technological advances.",
+  "jobs": [
+    {
+      "company": "Tera Campus",
+      "companyUrl": "https://www.tera-campus.com?utm_source=baiello&utm_medium=resume",
+      "position": "Co-founder - General Manager & Director of Education",
+      "start": "2021",
+      "end": "Current",
+      "current": true,
+      "location": "Europe",
+      "description": "Co-founder of a graduate school of computer science, responsible for the growth of the organization and for overseeing the day-to-day operations and ensuring that it runs smoothly.",
+      "tasks": [
+        "Management of all aspects of the school's educational program, including curriculum design, teacher recrutment and student assessment",
+        "Forecasting and management of educational and technical budgets",
+        "Technical referent: selection, development and implementation of management tools, reference point for trainers and students",
+        "Driving the school's technological innovation",
+        "Planning the strategy for the school international development"
+      ]
+    },
+    {
+      "company": "Otherwise",
+      "companyUrl": "https://web.archive.org/web/20210920023439/https://otherwise.fr/",
+      "position": "Tech Lead",
+      "start": "2018",
+      "end": "2022",
+      "current": false,
+      "location": "France",
+      "description": "Responsible for the technology strategy and vision of an insurance brokerage company, leading the development of new technologies and functionality while reducing technical debt, and ensuring that the company's technology infrastructure was efficient and effective.",
+      "tasks": [
+        "Increasing the competence of the technical team, and reducing the technical debt while increasing the rate of new features delivery",
+        "Implementation of processes and indicators using agile methodologies",
+        "Define the strategy and implementation of moving the product to Amazon Web Services",
+        "Guardians of users' private data (GDPR referent) and guarantor of the security of their health data",
+        "Strengthening technical relations with partners"
+      ]
+    },
+    {
+      "company": "Wynd",
+      "companyUrl": "https://www.wynd.eu/",
+      "position": "Lead Developer",
+      "start": "2015",
+      "end": "2018",
+      "current": false,
+      "location": "France",
+      "description": "Responsible for leading a team of software developers and providing technical guidance in the development of a white-labelled omnichannel marketplace.",
+      "tasks": [
+        "Development of an omnichannel management platform unifying sales for online and offline channels",
+        "Implementation of tests, continuous integration and deployment tools on APIs and web clients",
+        "Technical team management, Agile methodology",
+        "Technical and cost analysis, technical architecture design",
+        "Involvement in recruitments"
+      ]
+    },
+    {
+      "company": "Fuwuzone",
+      "position": "Founder & CTO",
+      "start": "2011",
+      "end": "2016",
+      "current": false,
+      "location": "China",
+      "description": "Responsible for leading the development and implementation of technology solutions for clients, through strong leadership and communication skills to manage teams and collaborate with clients.",
+      "tasks": [
+        "Design and development of a CRM and stock management solution",
+        "Design and development of an automated Social Web information extraction service",
+        "Security consultant on the preparation of the PCI-DSS certification for the \"Wechat Wallet\"",
+        "Source code audits",
+        "Administration and monitoring of Linux and Microsoft servers",
+        "Web strategy consulting: SEO and e-reputation management",
+        "Professional trainings"
+      ]
+    },
+    {
+      "company": "SUPINFO",
+      "companyUrl": "https://www.supinfo.com/",
+      "position": "Academic coordinator",
+      "start": "2010",
+      "end": "2011",
+      "current": false,
+      "location": "China",
+      "description": "Responsible for coordinating the recruitment of instructors, the organization of courses and the evaluation of student progress. Maintains relationships with industry partners and other institutions to enhance the educational experience in an international context.",
+      "tasks": [
+        "SUPINFO HEBUT (Hebei University of Technology) campus management",
+        "Guarantor of the relations between SUPINFO and the Chinese partner university",
+        "Schedules and trainers coordination",
+        "Network and system administrator",
+        "Leader and advisor for activities outside of the school (technical laboratories et extracurricular events)",
+        "Responsible for the integration and wellbeing of students"
+      ]
+    },
+    {
+      "company": "SUPINFO",
+      "companyUrl": "https://www.supinfo.com/",
+      "position": "Computer science trainer",
+      "start": "2008",
+      "end": "2014",
+      "current": false,
+      "location": "Worlwide",
+      "description": "Responsible for training computer science students and helps them succeed in the field.",
+      "tasks": [
+        "Trainings in Europe, North America, Africa and China",
+        "Trainings in development web & mobile",
+        "Trainings in system administration and networking",
+        "Trainings in cybersecurity"
+      ]
+    }
+  ],
+  "trainings": [
+    {
+      "schoolName": "SUPINFO",
+      "schoolDescription": "Higher education in Computer Science",
+      "schoolUrl": "https://www.supinfo.com/",
+      "diploma": "Master of Science SUPINFO",
+      "period": "2007 - 2011",
+      "location": "International"
+    },
+    {
+      "schoolName": "University Institute of Technology",
+      "schoolDescription": "Electronics and Industrial Computer engineering",
+      "schoolUrl": "https://www-iut.univ-lehavre.fr/geii",
+      "period": "2005 - 2007",
+      "location": "Le Havre, FRANCE"
+    },
+    {
+      "schoolName": "High school - Pablo Neruda",
+      "schoolDescription": "High school - Scientific cursus - Engineering sciences specialisn",
+      "schoolUrl": "https://neruda-lyc.spip.ac-rouen.fr/",
+      "diploma": "Scientific high school diploma (french scientific baccalaureate)",
+      "period": "2002 - 2005",
+      "location": "Dieppe, FRANCE"
+    }
+  ]
+}

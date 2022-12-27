@@ -1,0 +1,100 @@
+/*
+ * Section
+ */
+
+section.timeline {
+  margin-top: 2rem;
+}
+
+section.timeline h4 {
+  margin-bottom: 5px;
+}
+
+section.timeline h4 a,
+section.timeline h4 .company,
+section.timeline h4 .establishment {
+  text-decoration: none;
+  color: var(--color-link);
+}
+
+/*
+ * Two columns
+ */
+
+section.timeline .row {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+section.timeline .row > .column {
+  flex: 110%;
+}
+
+@media screen and (min-width: 769px) {
+  section.timeline .row {
+    flex-direction: row;
+    gap: 50px;
+  }
+
+  section.timeline .row > .column {
+    flex: 50%;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  section.timeline .row {
+    gap: 110px;
+  }
+}
+
+/*
+ * Timeline item
+ */
+
+section.timeline .timeline-item {
+  position: relative;
+  padding-left: 24px;
+  padding-bottom: 20px;
+}
+
+section.timeline .timeline-item::before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 2px solid var(--color-secondary);
+  background: var(--color-background);
+  position: absolute;
+  top: 4px;
+  left: 0px;
+  z-index: 3;
+}
+
+section.timeline .timeline-item.marked::before {
+  background: var(--color-secondary);
+}
+
+section.timeline .timeline-item::after {
+  width: 2px;
+  height: 100%;
+  content: "";
+  background: var(--color-secondary);
+  position: absolute;
+  top: 0px;
+  left: 7px;
+  z-index: 2;
+}
+
+section.timeline .timeline-item:first-of-type:after {
+  height: calc(100% - 4px);
+  top: 4px;
+}
+
+section.timeline .timeline-item:last-of-type:after {
+  height: 4px;
+}
+
+ section.timeline .timeline-item .period {
+  color: rgb(110, 110, 110);
+}
