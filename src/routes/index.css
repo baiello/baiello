@@ -6,13 +6,9 @@ section.timeline {
   margin-top: 2rem;
 }
 
-section.timeline h4 {
-  margin-bottom: 5px;
-}
-
-section.timeline h4 a,
-section.timeline h4 .company,
-section.timeline h4 .establishment {
+section.timeline a,
+section.timeline .company,
+section.timeline .establishment {
   text-decoration: none;
   color: var(--color-link);
 }
@@ -64,7 +60,7 @@ section.timeline .timeline-item::before {
   height: 16px;
   border-radius: 50%;
   border: 2px solid var(--color-secondary);
-  background: var(--color-background);
+  background: var(--color-background-primary);
   position: absolute;
   top: 4px;
   left: 0px;
@@ -97,4 +93,32 @@ section.timeline .timeline-item:last-of-type:after {
 
  section.timeline .timeline-item .period {
   color: rgb(110, 110, 110);
+}
+
+/*
+ * Omniskills continer
+ */
+
+.omniskills-container {
+  display: none;
+}
+
+@media screen and (min-width: 769px) {
+  .omniskills-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+  }
+}
+
+/*
+ * Trainings
+ */
+
+@media screen and (min-width: 769px) {
+  .trainings {
+    padding: 20px;
+    background-color: var(--color-background-secondary);
+    border-radius: 8px;
+  }
 }

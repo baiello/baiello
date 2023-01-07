@@ -1,0 +1,38 @@
+svg.omniskills {
+  width: 600px;
+  aspect-ratio: 1,22/1;
+}
+
+svg.omniskills .skin {
+  fill: rgb(220, 150, 150);
+}
+
+svg.omniskills .hairs {
+  fill: rgb(135, 135, 135);
+}
+
+svg.omniskills .skirt {
+  fill: rgb(100, 150, 255);
+}
+
+svg.omniskills .jacket,
+svg.omniskills .pants,
+svg.omniskills .shoes {
+  fill: var(--color-primary);
+}
+
+svg.omniskills .floor {
+  fill: var(--color-background-secondary);
+}
+
+svg.omniskills .icon {
+  fill: var(--color-background-primary);
+}
+
+svg.omniskills .icon-bg {
+  fill: var(--color-secondary);
+}
+
+svg.omniskills .icon-circle {
+  fill: var(--color-primary);
+};
